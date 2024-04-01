@@ -1,0 +1,7 @@
+[*.{html,js,jsx,ts,tsx,css,scss,json,cjs}]
+indent_style = tab
+indent_size = 2
+
+[*.{md,yml}]
+indent_style = space
+indent_size = 2
