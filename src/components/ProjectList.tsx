@@ -10,9 +10,12 @@ const ProjectList = () => {
 			</div>
 			<div className="flex flex-col md:flex-row items-center justify-center">
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-					{list.map((project) => (
-						<ProjectItem key={project.id} project={project} />
-					))}
+					{list
+						.slice()
+						.reverse()
+						.map((project) => (
+							<ProjectItem key={project.id} project={project} />
+						))}
 				</div>
 			</div>
 		</>
