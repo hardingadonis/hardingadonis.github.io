@@ -5,7 +5,7 @@ import { projectInfoData as list } from '@/data/projectInfoData';
 const ProjectList = () => {
 	return (
 		<>
-			<div className="w-full md:w-8/12">
+			<div className="w-full flex justify-center">
 				<Title title="Project List" />
 			</div>
 			<div className="flex flex-col md:flex-row items-center justify-center">
