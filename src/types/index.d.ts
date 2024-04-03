@@ -16,3 +16,12 @@ declare type EducationInfo = {
 	duration: string;
 	gpa: string;
 };
+
+declare type WorkExperienceInfo = {
+	id: number;
+	year: number;
+	position: string;
+	company: string;
+	duration: string;
+	description?: string;
+};
