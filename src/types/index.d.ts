@@ -8,3 +8,11 @@ declare type ProjectInfo = {
 	grade?: string;
 	techStack?: string[];
 };
+
+declare type EducationInfo = {
+	id: number;
+	college: string;
+	major: string;
+	duration: string;
+	gpa: string;
+};
