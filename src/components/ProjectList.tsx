@@ -5,14 +5,17 @@ import { projectInfoData as list } from '@/data/projectInfoData';
 const ProjectList = () => {
 	return (
 		<>
-			<div className="w-full md:w-8/12">
+			<div className="w-full flex justify-center">
 				<Title title="Project List" />
 			</div>
 			<div className="flex flex-col md:flex-row items-center justify-center">
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-					{list.map((project) => (
-						<ProjectItem key={project.id} project={project} />
-					))}
+					{list
+						.slice()
+						.reverse()
+						.map((project) => (
+							<ProjectItem key={project.id} project={project} />
+						))}
 				</div>
 			</div>
 		</>
