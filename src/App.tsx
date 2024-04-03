@@ -3,6 +3,7 @@ import Loading from '@/components/Loading';
 
 const Introduction = lazy(() => import('@/components/Introduction'));
 const ProjectList = lazy(() => import('@/components/ProjectList'));
+const EducationList = lazy(() => import('@/components/EducationList'));
 const Footer = lazy(() => import('@/components/Footer'));
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
 					<div className="max-w-5xl w-11/12 mx-auto">
 						<Introduction />
 						<ProjectList />
+						<EducationList />
 						<Footer />
 					</div>
 				</div>
