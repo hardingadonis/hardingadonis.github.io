@@ -16,7 +16,7 @@ export const workExperienceData: WorkExperienceInfo[] = [
 	{
 		id: 3,
 		year: 2024,
-		position: 'Intern Java Backend',
+		position: 'Intern C# Backend',
 		company: 'FPT Software Quy Nhơn',
 		duration: '04/2024 - now',
 		description: 'Worked as a software developer intern in the company.',
