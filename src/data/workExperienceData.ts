@@ -12,6 +12,7 @@ export const workExperienceData: WorkExperienceInfo[] = [
 		position: 'Trainee Java Servlet',
 		company: 'FPT Software Quy Nhơn',
 		duration: '09/2023 - 12/2023',
+		teamsize: '3',
 	},
 	{
 		id: 3,
@@ -19,6 +20,12 @@ export const workExperienceData: WorkExperienceInfo[] = [
 		position: 'Intern C# Backend',
 		company: 'FPT Software Quy Nhơn',
 		duration: '04/2024 - now',
-		description: 'Worked as a software developer intern in the company.',
+		technicalStack: ['ASP.NET Core', 'PostgreSQL', 'Jaspersoft Studio'],
+		workDescription: [
+			'Implementing & debugging Restful API',
+			'Designing & modifying the report template',
+			'Understand SQL queries',
+		],
+		teamsize: '25',
 	},
 ];
