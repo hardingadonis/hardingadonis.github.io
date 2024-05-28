@@ -15,7 +15,7 @@ const WorkExperienceList = () => {
 						.slice()
 						.reverse()
 						.map((workExperience) => (
-							<WorkExperienceItem worikExperience={workExperience} />
+							<WorkExperienceItem workExperience={workExperience} />
 						))}
 				</div>
 			</div>
