@@ -13,6 +13,7 @@ const ProjectList = () => {
 					{list
 						.slice()
 						.reverse()
+						.slice(0, 6)
 						.map((project) => (
 							<ProjectItem key={project.id} project={project} />
 						))}

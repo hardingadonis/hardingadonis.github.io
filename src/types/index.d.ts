@@ -23,5 +23,7 @@ declare type WorkExperienceInfo = {
 	position: string;
 	company: string;
 	duration: string;
-	description?: string;
+	technicalStack?: string[];
+	workDescription?: string[];
+	teamsize?: string;
 };

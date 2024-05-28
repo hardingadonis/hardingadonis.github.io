@@ -11,19 +11,17 @@ const Footer = lazy(() => import('@/components/Footer'));
 
 const App = () => {
 	return (
-		<>
-			<Suspense fallback={<Loading />}>
-				<div className="bg-white text-stone-900 min-h-screen font-inter">
-					<div className="max-w-5xl w-11/12 mx-auto">
-						<Introduction />
-						<ProjectList />
-						<EducationList />
-						<WorkExperienceList />
-						<Footer />
-					</div>
+		<Suspense fallback={<Loading />}>
+			<div className="bg-white text-stone-900 min-h-screen font-inter">
+				<div className="max-w-5xl w-11/12 mx-auto">
+					<Introduction />
+					<ProjectList />
+					<WorkExperienceList />
+					<EducationList />
+					<Footer />
 				</div>
-			</Suspense>
-		</>
+			</div>
+		</Suspense>
 	);
 };
 

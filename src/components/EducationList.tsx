@@ -13,6 +13,7 @@ const EducationList = () => {
 				{list
 					.slice()
 					.reverse()
+					.slice(0, 3)
 					.map((education) => (
 						<EducationItem key={education.id} education={education} />
 					))}
