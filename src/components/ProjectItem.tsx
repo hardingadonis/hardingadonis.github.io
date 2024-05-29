@@ -24,9 +24,9 @@ const ProjectItem = (props: ProjectItemProps) => {
 					{props.project.description}
 				</p>
 				<p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
-					{props.project.techStack?.map((tech, index) => (
+					{props.project.techStack?.map((tech) => (
 						<span
-							key={index}
+							key={tech}
 							className="text-black font-bold border-2 border-stone-900 px-2 py-1 rounded"
 						>
 							{tech}

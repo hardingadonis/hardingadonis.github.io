@@ -25,8 +25,8 @@ const WorkExperienceItem = (props: WorkExperienceItemProps) => {
 					<p className="my-2 text-base font-normal text-stone-500  space-y-1">
 						<strong>Technical stack:</strong>
 						<ul className="list-disc list-inside space-y-1">
-							{props.workExperience.technicalStack.map((item, index) => (
-								<li key={index}>{item}</li>
+							{props.workExperience.technicalStack.map((item) => (
+								<li key={item}>{item}</li>
 							))}
 						</ul>
 					</p>
@@ -35,8 +35,8 @@ const WorkExperienceItem = (props: WorkExperienceItemProps) => {
 					<p className="my-2 text-base font-normal text-stone-500  space-y-1">
 						<strong>Work description:</strong>
 						<ul className="list-disc list-inside  space-y-1">
-							{props.workExperience.workDescription.map((item, index) => (
-								<li key={index}>{item}</li>
+							{props.workExperience.workDescription.map((item) => (
+								<li key={item}>{item}</li>
 							))}
 						</ul>
 					</p>
