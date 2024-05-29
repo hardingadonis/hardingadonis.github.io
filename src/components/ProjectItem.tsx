@@ -13,6 +13,7 @@ const ProjectItem = (props: ProjectItemProps) => {
 			<img
 				src={props.project.imageURL}
 				className="w-full h-36 md:h-48 object-cover cursor-pointer"
+				alt="Project thumbnail"
 			/>
 			<hr className="border-t border-gray-500" />
 			<div className="w-full p-4">

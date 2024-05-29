@@ -16,28 +16,28 @@ const Introduction = () => {
 					href="https://github.com/hardingadonis"
 					target="_blank"
 				>
-					<img className="w-5 h-5" src={github} />
+					<img className="w-5 h-5" src={github} alt="GitHub icon" />
 				</a>
 				<a
 					className="mx-2"
 					href="https://www.linkedin.com/in/hardingadonis"
 					target="_blank"
 				>
-					<img className="w-5 h-5" src={linkedin} />
+					<img className="w-5 h-5" src={linkedin} alt="LinkedIn icon" />
 				</a>
 				<a
 					className="mx-2"
 					href="https://www.youtube.com/@adonis.harding"
 					target="_blank"
 				>
-					<img className="w-5 h-5" src={youtube} />
+					<img className="w-5 h-5" src={youtube} alt="YouTube icon" />
 				</a>
 				<a
 					className="mx-2"
 					href="https://www.facebook.com/adonis.harding"
 					target="_blank"
 				>
-					<img className="w-5 h-5" src={facebook} />
+					<img className="w-5 h-5" src={facebook} alt="Facebook icon" />
 				</a>
 			</div>
 		</div>
