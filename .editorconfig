@@ -1,4 +1,4 @@
-[*.{html,js,jsx,ts,tsx,css,scss,json,cjs}]
+[*.{html,js,jsx,ts,tsx,css,scss,json,cjs,mjs,prettierrc}]
 indent_style = tab
 indent_size = 2
 
