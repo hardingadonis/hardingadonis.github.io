@@ -20,4 +20,43 @@ export const projectInfoData: ProjectInfo[] = [
 		grade: '8/10',
 		techStack: ['Java Jakarta EE', 'MySQL', 'Hibernate', 'Docker', 'Bootstrap'],
 	},
+	{
+		id: 3,
+		title: 'Obsidian Plugin: Hash Pasted Image',
+		description:
+			'Obsidian plugin that auto rename pasted images added to the vault via hash algorithm SHA-512',
+		imageURL: '/assets/imgs/hash-pasted-image.png',
+		url: 'https://github.com/hardingadonis/hash-pasted-image',
+		role: ['Repository Owner'],
+		techStack: ['Obsidian API', 'Typescript'],
+		repoBadge: [
+			'https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=downloads&query=%24%5B%22hash-pasted-image%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json',
+			'https://img.shields.io/github/languages/top/hardingadonis/hash-pasted-image',
+			'https://img.shields.io/github/contributors/hardingadonis/hash-pasted-image',
+			'https://img.shields.io/github/license/hardingadonis/hash-pasted-image',
+		],
+	},
+	{
+		id: 4,
+		title: '.NET Microservices',
+		description: '.Net Microservices using Clean Architecture',
+		imageURL: '/assets/imgs/dotnet-microservices.png',
+		url: 'https://github.com/hardingadonis/dotnet-microservices',
+		role: ['Repository Owner'],
+		techStack: [
+			'C#',
+			'ASP.NET Core',
+			'Docker',
+			'GitHub Actions',
+			'Microservices',
+			'Clean Architecture',
+		],
+		repoBadge: [
+			'https://github.com/hardingadonis/dotnet-microservices/actions/workflows/build.yml/badge.svg',
+			'https://sonarcloud.io/api/project_badges/measure?project=hardingadonis_dotnet-microservices&metric=alert_status',
+			'https://img.shields.io/github/contributors/hardingadonis/dotnet-microservices',
+			'https://img.shields.io/github/languages/top/hardingadonis/dotnet-microservices',
+			'https://img.shields.io/github/license/hardingadonis/dotnet-microservices',
+		],
+	},
 ];

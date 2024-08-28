@@ -19,7 +19,7 @@ export const workExperienceData: WorkExperienceInfo[] = [
 		year: 2024,
 		position: 'Intern C# Backend',
 		company: 'FPT Software Quy Nhơn',
-		duration: '04/2024 - now',
+		duration: '04/2024 - 08/2024',
 		technicalStack: ['ASP.NET Core', 'PostgreSQL', 'Jaspersoft Studio'],
 		workDescription: [
 			'Implementing & debugging Restful API',

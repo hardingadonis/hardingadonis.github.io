@@ -7,6 +7,7 @@ declare type ProjectInfo = {
 	role?: string[];
 	grade?: string;
 	techStack?: string[];
+	repoBadge?: string[];
 };
 
 declare type EducationInfo = {

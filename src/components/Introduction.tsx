@@ -40,6 +40,11 @@ const Introduction = () => {
 					<img className="w-5 h-5" src={facebook} alt="Facebook icon" />
 				</a>
 			</div>
+			<div className="flex justify-center font-light">
+				<p className="text-sm md:text-base mt-3">vuonglm.work@gmail.com</p>
+				<p className="text-sm md:text-base mt-3 ml-3">|</p>
+				<p className="text-sm md:text-base mt-3 ml-3">(+84) 333 382 420</p>
+			</div>
 		</div>
 	);
 };
