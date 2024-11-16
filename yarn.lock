@@ -1235,6 +1235,11 @@ glob@^10.3.10:
     package-json-from-dist "^1.0.0"
     path-scurry "^1.11.1"
 
+globals@15.12.0:
+  version "15.12.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-15.12.0.tgz#1811872883ad8f41055b61457a130221297de5b5"
+  integrity sha512-1+gLErljJFhbOVyaetcwJiJ4+eLe45S2E7P5UiZ9xGfeq3ATQf5DOv9G7MH3gGbKQLkzmNh2DxfZwLdw+j6oTQ==
+
 globals@^11.1.0:
   version "11.12.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
@@ -1958,6 +1963,15 @@ type-check@^0.4.0, type-check@~0.4.0:
   integrity sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==
   dependencies:
     prelude-ls "^1.2.1"
+
+typescript-eslint@8.14.0:
+  version "8.14.0"
+  resolved "https://registry.yarnpkg.com/typescript-eslint/-/typescript-eslint-8.14.0.tgz#2435c0628e90303544fdd63ae311e9bf6d149a5d"
+  integrity sha512-K8fBJHxVL3kxMmwByvz8hNdBJ8a0YqKzKDX6jRlrjMuNXyd5T2V02HIq37+OiWXvUUOXgOOGiSSOh26Mh8pC3w==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "8.14.0"
+    "@typescript-eslint/parser" "8.14.0"
+    "@typescript-eslint/utils" "8.14.0"
 
 typescript@5.6.3:
   version "5.6.3"

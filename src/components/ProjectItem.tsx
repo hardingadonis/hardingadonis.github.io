@@ -33,6 +33,13 @@ const ProjectItem = (props: ProjectItemProps) => {
 						</span>
 					))}
 				</p>
+				{props.project.repoBadge && (
+					<div className="flex flex-wrap gap-2 flex-row items-center justify-start mt-3">
+						{props.project.repoBadge.map((badge) => (
+							<img key={badge} src={badge} alt="Repo badge" />
+						))}
+					</div>
+				)}
 				{props.project.role && (
 					<p className="text-xs md:text-sm mt-3">
 						<strong>Role:</strong> {props.project.role.join(', ')}
@@ -42,13 +49,6 @@ const ProjectItem = (props: ProjectItemProps) => {
 					<p className="text-xs md:text-sm mt-3">
 						<strong>Grade:</strong> {props.project.grade}
 					</p>
-				)}
-				{props.project.repoBadge && (
-					<div className="flex flex-wrap gap-2 flex-row items-center justify-start mt-3">
-						{props.project.repoBadge.map((badge) => (
-							<img key={badge} src={badge} alt="Repo badge" />
-						))}
-					</div>
 				)}
 			</div>
 		</a>
