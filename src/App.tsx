@@ -1,4 +1,5 @@
-import { lazy, Suspense } from 'react';
+import { Suspense, lazy } from 'react';
+
 import Loading from '@/components/Loading';
 
 const Introduction = lazy(() => import('@/components/Introduction'));

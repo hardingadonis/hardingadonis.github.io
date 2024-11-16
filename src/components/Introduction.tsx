@@ -1,7 +1,7 @@
+import facebook from '@/assets/facebook.svg';
 import github from '@/assets/github.svg';
 import linkedin from '@/assets/linkedin.svg';
 import youtube from '@/assets/youtube.svg';
-import facebook from '@/assets/facebook.svg';
 
 const Introduction = () => {
 	return (
