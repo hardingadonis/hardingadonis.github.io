@@ -1,5 +1,5 @@
-import Title from '@/components/Title';
 import ProjectItem from '@/components/ProjectItem';
+import Title from '@/components/Title';
 import { projectInfoData as list } from '@/data/projectInfoData';
 
 const ProjectList = () => {

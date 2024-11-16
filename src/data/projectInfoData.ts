@@ -28,7 +28,7 @@ export const projectInfoData: ProjectInfo[] = [
 		imageURL: '/assets/imgs/hash-pasted-image.png',
 		url: 'https://github.com/hardingadonis/hash-pasted-image',
 		role: ['Repository Owner'],
-		techStack: ['Obsidian API', 'Typescript'],
+		techStack: ['Obsidian API', 'TypeScript'],
 		repoBadge: [
 			'https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=downloads&query=%24%5B%22hash-pasted-image%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json',
 			'https://img.shields.io/github/languages/top/hardingadonis/hash-pasted-image',
@@ -58,5 +58,28 @@ export const projectInfoData: ProjectInfo[] = [
 			'https://img.shields.io/github/languages/top/hardingadonis/dotnet-microservices',
 			'https://img.shields.io/github/license/hardingadonis/dotnet-microservices',
 		],
+	},
+	{
+		id: 5,
+		title: 'ligevan',
+		description: '「学び、練習し、成功する」',
+		imageURL: '/assets/imgs/ligevan.png',
+		url: 'https://github.com/hardingadonis/ligevan',
+		role: ['Repository Owner', 'Team Leader', 'Backend'],
+		techStack: [
+			'TypeScript',
+			'NestJS',
+			'React',
+			'Docker',
+			'GitHub Actions',
+			'MongoDB',
+		],
+		repoBadge: [
+			'https://sonarcloud.io/api/project_badges/measure?project=hardingadonis_ligevan&metric=alert_status',
+			'https://img.shields.io/github/contributors/hardingadonis/ligevan',
+			'https://img.shields.io/github/languages/top/hardingadonis/ligevan',
+			'https://img.shields.io/github/license/hardingadonis/ligevan',
+		],
+		grade: '9.4/10',
 	},
 ];

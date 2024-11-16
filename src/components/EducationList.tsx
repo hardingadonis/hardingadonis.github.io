@@ -1,5 +1,5 @@
-import Title from '@/components/Title';
 import EducationItem from '@/components/EducationItem';
+import Title from '@/components/Title';
 import { educationData as list } from '@/data/educationData';
 
 const EducationList = () => {
