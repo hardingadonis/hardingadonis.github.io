@@ -1,3 +1,4 @@
+import { codecovVitePlugin } from '@codecov/vite-plugin';
 import tailwindCSS from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react-swc';
 import { defineConfig } from 'vite';
@@ -5,6 +6,15 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	plugins: [react(), tsconfigPaths(), tailwindCSS()],
+	plugins: [
+		react(),
+		tsconfigPaths(),
+		tailwindCSS(),
+		codecovVitePlugin({
+			enableBundleAnalysis: process.env.CODECOV_TOKEN !== undefined,
+			bundleName: '@hardingadonis/hardingadonis.github.io',
+			uploadToken: process.env.CODECOV_TOKEN,
+		}),
+	],
 	base: '/',
 });
