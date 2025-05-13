@@ -44,9 +44,6 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
 
-      - name: 🔑 Add CODECOV_TOKEN to .env file
-        run: echo "CODECOV_TOKEN=${{ secrets.CODECOV_TOKEN }}" >> .env
-
       - name: 📚 Install dependencies
         run: |
           pnpm install --frozen-lockfile
