@@ -28,4 +28,18 @@ export const workExperienceData: WorkExperienceInfo[] = [
 		],
 		teamsize: '25',
 	},
+	{
+		id: 4,
+		year: 2025,
+		position: 'NodeJS Backend (Remote & Part-time)',
+		company: 'MMSoft',
+		duration: '06/2025 - 07/2025',
+		technicalStack: ['NodeJS', 'Express', 'MongoDB', 'Parse Server'],
+		workDescription: [
+			'Migrate from Parse Server 2.8 to 8.2.1',
+			'Migrate database from MongoDB 4 to MongoDB 6',
+			'Migrate Parse JS SDK to latest version for Admin Dashboard',
+		],
+		teamsize: '9',
+	},
 ];
