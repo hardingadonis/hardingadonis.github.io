@@ -11,7 +11,7 @@ const ProjectList = () => {
 	const hasMoreItems = list.length > 3;
 
 	return (
-		<>
+		<section id="projects">
 			<div className="w-full flex justify-center">
 				<Title title="Project List" />
 			</div>
@@ -67,7 +67,7 @@ const ProjectList = () => {
 					</button>
 				</div>
 			)}
-		</>
+		</section>
 	);
 };
 

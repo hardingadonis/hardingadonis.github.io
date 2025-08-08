@@ -11,7 +11,7 @@ const WorkExperienceList = () => {
 	const hasMoreItems = list.length > 3;
 
 	return (
-		<>
+		<section id="work-experience">
 			<div className="w-full flex justify-center mt-6">
 				<Title title="Work Experience" />
 			</div>
@@ -71,7 +71,7 @@ const WorkExperienceList = () => {
 					)}
 				</div>
 			</div>
-		</>
+		</section>
 	);
 };
 
