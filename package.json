@@ -17,7 +17,6 @@
 		"tailwindcss": "4.1.6"
 	},
 	"devDependencies": {
-		"@codecov/vite-plugin": "1.9.0",
 		"@eslint/js": "9.26.0",
 		"@trivago/prettier-plugin-sort-imports": "5.2.2",
 		"@types/node": "20.17.46",
