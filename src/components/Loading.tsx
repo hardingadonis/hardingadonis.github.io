@@ -1,13 +1,9 @@
-import spinner from '@/assets/spinner.svg';
+import { Spinner } from './ui/spinner';
 
 const Loading = () => {
 	return (
-		<div className="h-screen flex justify-center items-center bg-white">
-			<img
-				className="w-10 h-10 animate-spin"
-				src={spinner}
-				alt="Spinner animation"
-			/>
+		<div className="h-screen flex justify-center items-center">
+			<Spinner className="w-16 h-16 text-primary" />
 		</div>
 	);
 };
