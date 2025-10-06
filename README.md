@@ -4,7 +4,7 @@
 
 ## Requirements
 
-- NodeJS: 20.19.1
+- NodeJS: 22.20.0
 - Package manager: pnpm
 
 ## How to develop

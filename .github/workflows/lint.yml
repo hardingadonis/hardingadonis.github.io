@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: 📥 Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 🛠️ Setup pnpm
         uses: pnpm/action-setup@v4
@@ -18,9 +18,9 @@ jobs:
           version: 10
 
       - name: 🟢 Setup Node.js environment
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 20.19.1
+          node-version: 22.20.0
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
 
