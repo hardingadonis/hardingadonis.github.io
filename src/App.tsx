@@ -1,33 +1,9 @@
-import { Suspense, lazy } from 'react';
+import { Suspense } from 'react';
 
-import Loading from '@/components/Loading';
-import Navigation from '@/components/Navigation';
-
-const Introduction = lazy(() => import('@/components/Introduction'));
-const ProjectList = lazy(() => import('@/components/ProjectList'));
-const EducationList = lazy(() => import('@/components/EducationList'));
-const WorkExperienceList = lazy(
-	() => import('@/components/WorkExperienceList'),
-);
-const Footer = lazy(() => import('@/components/Footer'));
+import Loading from '@/components/utils/Loading';
 
 const App = () => {
-	return (
-		<Suspense fallback={<Loading />}>
-			<div className="bg-white text-stone-900 min-h-screen font-inter">
-				<div className="max-w-5xl w-11/12 mx-auto">
-					<Introduction />
-				</div>
-				<Navigation />
-				<div className="max-w-5xl w-11/12 mx-auto">
-					<ProjectList />
-					<WorkExperienceList />
-					<EducationList />
-					<Footer />
-				</div>
-			</div>
-		</Suspense>
-	);
+	return <Suspense fallback={<Loading />}></Suspense>;
 };
 
 export default App;
