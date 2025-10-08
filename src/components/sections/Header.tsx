@@ -1,4 +1,4 @@
-import { Menu } from 'lucide-react';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 import { ModeToggle } from '@/components/mode-toggle';
 import { Button } from '@/components/ui/button';
@@ -24,13 +24,13 @@ const Header = () => {
 	return !isMobile ? (
 		// Desktop Header
 		<NavigationMenu className="mx-auto my-4 px-4 py-4 sticky top-2 outline-1 shadow-md rounded-md bg-white dark:bg-black hidden md:block">
-			<NavigationMenuList className="space-x-10">
+			<NavigationMenuList className="gap-10">
 				<NavigationMenuItem>
 					<h3 className="text-2xl font-semibold text-primary">
 						<a href="/">Minh Vương</a>
 					</h3>
 				</NavigationMenuItem>
-				<div className="flex space-x-2">
+				<div className="flex gap-2">
 					<NavigationMenuItem>
 						<NavigationMenuLink
 							asChild
@@ -81,7 +81,7 @@ const Header = () => {
 					<DropdownMenu>
 						<DropdownMenuTrigger asChild>
 							<Button variant="default">
-								<Menu className="h-[1.2rem] w-[1.2rem] scale-100" />
+								<AiOutlineMenu className="h-[1.2rem] w-[1.2rem] scale-100" />
 							</Button>
 						</DropdownMenuTrigger>
 						<DropdownMenuContent align="end">
