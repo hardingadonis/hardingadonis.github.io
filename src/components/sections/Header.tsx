@@ -9,17 +9,14 @@ import {
 
 const Header = () => {
 	return (
-		<NavigationMenu className="mx-auto my-4 px-4 py-4 sticky top-2 shadow-md rounded-md bg-white dark:bg-black">
-			<NavigationMenuList className="space-x-20">
+		<NavigationMenu className="mx-auto my-4 px-4 py-4 sticky top-2 outline-1 shadow-md rounded-md bg-white dark:bg-black">
+			<NavigationMenuList className="space-x-10">
+				<NavigationMenuItem>
+					<h3 className="text-2xl font-semibold text-primary">
+						<a href="/">Minh Vương</a>
+					</h3>
+				</NavigationMenuItem>
 				<div className="flex space-x-2">
-					<NavigationMenuItem>
-						<NavigationMenuLink
-							asChild
-							className={navigationMenuTriggerStyle()}
-						>
-							<a href="/">Home</a>
-						</NavigationMenuLink>
-					</NavigationMenuItem>
 					<NavigationMenuItem>
 						<NavigationMenuLink
 							asChild
