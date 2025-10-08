@@ -1,4 +1,14 @@
+import { Menu } from 'lucide-react';
+
 import { ModeToggle } from '@/components/mode-toggle';
+import { Button } from '@/components/ui/button';
+import {
+	DropdownMenu,
+	DropdownMenuContent,
+	DropdownMenuGroup,
+	DropdownMenuItem,
+	DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import {
 	NavigationMenu,
 	NavigationMenuItem,
@@ -6,10 +16,14 @@ import {
 	NavigationMenuList,
 	navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
+import useMobile from '@/hooks/useMobile';
 
 const Header = () => {
-	return (
-		<NavigationMenu className="mx-auto my-4 px-4 py-4 sticky top-2 outline-1 shadow-md rounded-md bg-white dark:bg-black">
+	const isMobile = useMobile();
+
+	return !isMobile ? (
+		// Desktop Header
+		<NavigationMenu className="mx-auto my-4 px-4 py-4 sticky top-2 outline-1 shadow-md rounded-md bg-white dark:bg-black hidden md:block">
 			<NavigationMenuList className="space-x-10">
 				<NavigationMenuItem>
 					<h3 className="text-2xl font-semibold text-primary">
@@ -55,6 +69,43 @@ const Header = () => {
 				<ModeToggle />
 			</NavigationMenuList>
 		</NavigationMenu>
+	) : (
+		// Mobile Header
+		<div className="md:hidden mx-auto my-4 px-4 py-4 sticky top-2 shadow-md rounded-md bg-white dark:bg-black">
+			<div className="flex justify-between items-center">
+				<h3 className="text-2xl font-semibold text-primary">
+					<a href="/">Minh Vương</a>
+				</h3>
+				<div className="flex items-center space-x-2">
+					<ModeToggle />
+					<DropdownMenu>
+						<DropdownMenuTrigger asChild>
+							<Button variant="default">
+								<Menu className="h-[1.2rem] w-[1.2rem] scale-100" />
+							</Button>
+						</DropdownMenuTrigger>
+						<DropdownMenuContent align="end">
+							<DropdownMenuGroup>
+								<DropdownMenuItem>
+									<a href="#work-experience">Work Experience</a>
+								</DropdownMenuItem>
+								<DropdownMenuItem>
+									<a href="#skills">Skills</a>
+								</DropdownMenuItem>
+								<DropdownMenuItem>
+									<a href="#projects">Projects</a>
+								</DropdownMenuItem>
+								<DropdownMenuItem>
+									<a href="https://blog.hardingadonis.top" target="_blank">
+										Blog
+									</a>
+								</DropdownMenuItem>
+							</DropdownMenuGroup>
+						</DropdownMenuContent>
+					</DropdownMenu>
+				</div>
+			</div>
+		</div>
 	);
 };
 
