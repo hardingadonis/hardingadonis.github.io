@@ -11,8 +11,6 @@ export function ModeToggle() {
 		setTheme(newTheme);
 	};
 
-	console.log('Current theme:', theme);
-
 	return (
 		<Button variant="default" size="icon" onClick={toggleTheme}>
 			<AiFillSun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
