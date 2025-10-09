@@ -10,18 +10,6 @@ declare type WorkExperienceInfo = {
 	teamsize?: string;
 };
 
-declare type ProjectInfo = {
-	id: number;
-	title: string;
-	description: string;
-	imageURL: string;
-	url: string;
-	role?: string[];
-	grade?: string;
-	techStack?: string[];
-	repoBadge?: string[];
-};
-
 declare type EducationInfo = {
 	id: number;
 	college: string;

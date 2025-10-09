@@ -5,7 +5,7 @@ type ProjectItemProps = {
 const ProjectItem = (props: ProjectItemProps) => {
 	return (
 		<a
-			href={props.project.url}
+			href={props.project.repoURL}
 			target="_blank"
 			rel="noopener noreferrer"
 			className="border-2 border-stone-900 overflow-hidden"

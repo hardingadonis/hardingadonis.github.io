@@ -52,14 +52,6 @@ const Header = () => {
 							asChild
 							className={navigationMenuTriggerStyle()}
 						>
-							<a href="#projects">Projects</a>
-						</NavigationMenuLink>
-					</NavigationMenuItem>
-					<NavigationMenuItem>
-						<NavigationMenuLink
-							asChild
-							className={navigationMenuTriggerStyle()}
-						>
 							<a href="#education">Education</a>
 						</NavigationMenuLink>
 					</NavigationMenuItem>
@@ -99,9 +91,6 @@ const Header = () => {
 								</DropdownMenuItem>
 								<DropdownMenuItem>
 									<a href="#skills">Skills</a>
-								</DropdownMenuItem>
-								<DropdownMenuItem>
-									<a href="#projects">Projects</a>
 								</DropdownMenuItem>
 								<DropdownMenuItem>
 									<a href="#education">Education</a>
