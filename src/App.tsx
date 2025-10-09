@@ -8,6 +8,7 @@ const Introduction = lazy(() => import('@/components/sections/Introduction'));
 const WorkExperience = lazy(
 	() => import('@/components/sections/WorkExperience'),
 );
+const Education = lazy(() => import('@/components/sections/Education'));
 
 const App = () => {
 	return (
@@ -17,6 +18,8 @@ const App = () => {
 				<Introduction />
 				<Separator />
 				<WorkExperience />
+				<Separator />
+				<Education />
 			</div>
 		</Suspense>
 	);
