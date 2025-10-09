@@ -7,7 +7,7 @@ import {
 
 const Introduction = () => {
 	return (
-		<div className="flex flex-col justify-center items-center gap-6 py-6">
+		<section className="flex flex-col justify-center items-center gap-6 py-6">
 			<img
 				src="/avatar.png"
 				alt="Minh Vương Avatar"
@@ -41,7 +41,7 @@ const Introduction = () => {
 					(+84) 333 382 420
 				</h4>
 			</div>
-		</div>
+		</section>
 	);
 };
 
