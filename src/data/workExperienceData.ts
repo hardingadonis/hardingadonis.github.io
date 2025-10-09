@@ -2,6 +2,8 @@ export const workExperienceData: WorkExperienceInfo[] = [
 	{
 		id: 1,
 		companyName: 'FPT Software Quy Nhơn',
+		companyLogoURL:
+			'https://fptsoftware.com/-/media/project/fpt-software/fso/uplift/home/logo_fpt_text_black.png',
 		companyLogoFallback: 'FPT',
 		position: 'Trainee Java Core',
 		duration: '05/2023 - 08/2023',
@@ -11,6 +13,8 @@ export const workExperienceData: WorkExperienceInfo[] = [
 	{
 		id: 2,
 		companyName: 'FPT Software Quy Nhơn',
+		companyLogoURL:
+			'https://fptsoftware.com/-/media/project/fpt-software/fso/uplift/home/logo_fpt_text_black.png',
 		companyLogoFallback: 'FPT',
 		position: 'Trainee Java Servlet',
 		duration: '09/2023 - 12/2023',
@@ -20,6 +24,8 @@ export const workExperienceData: WorkExperienceInfo[] = [
 	{
 		id: 3,
 		companyName: 'FPT Software Quy Nhơn',
+		companyLogoURL:
+			'https://fptsoftware.com/-/media/project/fpt-software/fso/uplift/home/logo_fpt_text_black.png',
 		companyLogoFallback: 'FPT',
 		position: 'Intern C# Backend',
 		duration: '04/2024 - 08/2024',
@@ -34,6 +40,8 @@ export const workExperienceData: WorkExperienceInfo[] = [
 	{
 		id: 4,
 		companyName: 'MMSoft',
+		companyLogoURL:
+			'https://mmsofts.com/wp-content/uploads/2023/12/Logo_300x300-1.png',
 		companyLogoFallback: 'MM',
 		position: 'NodeJS Backend (Remote & Part-time)',
 		duration: '06/2025 - 07/2025',

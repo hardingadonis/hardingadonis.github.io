@@ -23,13 +23,13 @@ const WorkExperience = () => {
 							value={`we-${we.id}`}
 							className="border-b last:border-b-0"
 						>
-							<AccordionTrigger className="w-full p-4 flex items-center gap-4 bg-white dark:bg-zinc-800 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700">
+							<AccordionTrigger className="w-full p-4 flex items-center gap-4 bg-zinc-100 dark:bg-zinc-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">
 								<div className="flex-none">
-									<Avatar className="size-12 border bg-zinc-100 dark:bg-zinc-700">
+									<Avatar className="size-12 border bg-zinc-200 dark:bg-zinc-700">
 										<AvatarImage
 											src={we.companyLogoURL}
 											alt={we.companyName}
-											className="object-contain"
+											className="object-contain bg-white"
 										/>
 										<AvatarFallback>{we.companyLogoFallback}</AvatarFallback>
 									</Avatar>
