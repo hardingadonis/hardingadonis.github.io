@@ -23,7 +23,7 @@ const Header = () => {
 
 	return !isMobile ? (
 		// Desktop Header
-		<NavigationMenu className="mx-auto my-4 px-4 py-4 sticky top-2 outline-2 shadow-md rounded-md bg-white dark:bg-black hidden md:block">
+		<NavigationMenu className="mx-auto my-4 px-4 py-4 sticky top-2 outline-2 shadow-md rounded-md bg-white dark:bg-black hidden md:block z-99">
 			<NavigationMenuList className="gap-10">
 				<NavigationMenuItem>
 					<h3 className="text-2xl font-semibold text-primary">
@@ -71,7 +71,7 @@ const Header = () => {
 		</NavigationMenu>
 	) : (
 		// Mobile Header
-		<div className="md:hidden mx-auto my-4 px-4 py-4 sticky top-2 shadow-md rounded-md bg-white dark:bg-black">
+		<div className="md:hidden mx-auto my-4 px-4 py-4 sticky top-2 shadow-md rounded-md bg-white dark:bg-black z-99">
 			<div className="flex justify-between items-center">
 				<h3 className="text-2xl font-semibold text-primary">
 					<a href="/">Minh Vương</a>
