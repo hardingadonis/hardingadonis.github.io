@@ -10,6 +10,7 @@ const WorkExperience = lazy(
 );
 const Skills = lazy(() => import('@/components/sections/Skills'));
 const Education = lazy(() => import('@/components/sections/Education'));
+const Footer = lazy(() => import('@/components/sections/Footer'));
 
 const App = () => {
 	return (
@@ -24,6 +25,7 @@ const App = () => {
 				<Separator />
 				<Education />
 			</div>
+			<Footer />
 		</Suspense>
 	);
 };
