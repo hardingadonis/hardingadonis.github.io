@@ -1,26 +1,35 @@
 export const workExperienceData: WorkExperienceInfo[] = [
 	{
 		id: 1,
-		year: 2023,
+		companyName: 'FPT Software Quy Nhơn',
+		companyLogoURL:
+			'https://fptsoftware.com/-/media/project/fpt-software/fso/uplift/home/logo_fpt_text_black.png',
+		companyLogoFallback: 'FPT',
 		position: 'Trainee Java Core',
-		company: 'FPT Software Quy Nhơn',
 		duration: '05/2023 - 08/2023',
+		technicalStack: ['Java'],
+		teamsize: '1',
 	},
 	{
 		id: 2,
-		year: 2023,
+		companyName: 'FPT Software Quy Nhơn',
+		companyLogoURL:
+			'https://fptsoftware.com/-/media/project/fpt-software/fso/uplift/home/logo_fpt_text_black.png',
+		companyLogoFallback: 'FPT',
 		position: 'Trainee Java Servlet',
-		company: 'FPT Software Quy Nhơn',
 		duration: '09/2023 - 12/2023',
+		technicalStack: ['Java', 'Tomcat', 'MySQL'],
 		teamsize: '3',
 	},
 	{
 		id: 3,
-		year: 2024,
+		companyName: 'FPT Software Quy Nhơn',
+		companyLogoURL:
+			'https://fptsoftware.com/-/media/project/fpt-software/fso/uplift/home/logo_fpt_text_black.png',
+		companyLogoFallback: 'FPT',
 		position: 'Intern C# Backend',
-		company: 'FPT Software Quy Nhơn',
 		duration: '04/2024 - 08/2024',
-		technicalStack: ['ASP.NET Core', 'PostgreSQL', 'Jaspersoft Studio'],
+		technicalStack: ['C#', 'ASP.NET Core', 'PostgreSQL'],
 		workDescription: [
 			'Implementing & debugging Restful API',
 			'Designing & modifying the report template',
@@ -30,9 +39,11 @@ export const workExperienceData: WorkExperienceInfo[] = [
 	},
 	{
 		id: 4,
-		year: 2025,
+		companyName: 'MMSoft',
+		companyLogoURL:
+			'https://mmsofts.com/wp-content/uploads/2023/12/Logo_300x300-1.png',
+		companyLogoFallback: 'MM',
 		position: 'NodeJS Backend (Remote & Part-time)',
-		company: 'MMSoft',
 		duration: '06/2025 - 07/2025',
 		technicalStack: ['NodeJS', 'Express', 'MongoDB', 'Parse Server'],
 		workDescription: [

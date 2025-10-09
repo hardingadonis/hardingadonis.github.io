@@ -1,13 +1,13 @@
-declare type ProjectInfo = {
+declare type WorkExperienceInfo = {
 	id: number;
-	title: string;
-	description: string;
-	imageURL: string;
-	url: string;
-	role?: string[];
-	grade?: string;
-	techStack?: string[];
-	repoBadge?: string[];
+	companyName: string;
+	companyLogoURL?: string;
+	companyLogoFallback: string;
+	position: string;
+	duration: string;
+	technicalStack?: string[];
+	workDescription?: string[];
+	teamsize?: string;
 };
 
 declare type EducationInfo = {
@@ -16,15 +16,4 @@ declare type EducationInfo = {
 	major: string;
 	duration: string;
 	gpa: string;
-};
-
-declare type WorkExperienceInfo = {
-	id: number;
-	year: number;
-	position: string;
-	company: string;
-	duration: string;
-	technicalStack?: string[];
-	workDescription?: string[];
-	teamsize?: string;
 };

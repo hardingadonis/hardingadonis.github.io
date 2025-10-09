@@ -7,8 +7,8 @@ const Footer = () => {
 
 	return (
 		<div className="py-5 text-center">
-			<p className="text-sm mt-2  opacity-50">
-				&copy; {year} Minh Vương. All rights reserved.
+			<p className="text-sm text-primary/80 mt-2">
+				&copy; {year} | Minh Vương. All rights reserved.
 			</p>
 		</div>
 	);

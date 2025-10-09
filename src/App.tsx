@@ -1,31 +1,31 @@
 import { Suspense, lazy } from 'react';
 
-import Loading from '@/components/Loading';
-import Navigation from '@/components/Navigation';
+import { Separator } from '@/components/ui/separator';
+import Loading from '@/components/utils/Loading';
 
-const Introduction = lazy(() => import('@/components/Introduction'));
-const ProjectList = lazy(() => import('@/components/ProjectList'));
-const EducationList = lazy(() => import('@/components/EducationList'));
-const WorkExperienceList = lazy(
-	() => import('@/components/WorkExperienceList'),
+const Header = lazy(() => import('@/components/sections/Header'));
+const Introduction = lazy(() => import('@/components/sections/Introduction'));
+const WorkExperience = lazy(
+	() => import('@/components/sections/WorkExperience'),
 );
-const Footer = lazy(() => import('@/components/Footer'));
+const Skills = lazy(() => import('@/components/sections/Skills'));
+const Education = lazy(() => import('@/components/sections/Education'));
+const Footer = lazy(() => import('@/components/sections/Footer'));
 
 const App = () => {
 	return (
 		<Suspense fallback={<Loading />}>
-			<div className="bg-white text-stone-900 min-h-screen font-inter">
-				<div className="max-w-5xl w-11/12 mx-auto">
-					<Introduction />
-				</div>
-				<Navigation />
-				<div className="max-w-5xl w-11/12 mx-auto">
-					<ProjectList />
-					<WorkExperienceList />
-					<EducationList />
-					<Footer />
-				</div>
+			<Header />
+			<div className="max-w-2xl w-11/12 mx-auto">
+				<Introduction />
+				<Separator />
+				<WorkExperience />
+				<Separator />
+				<Skills />
+				<Separator />
+				<Education />
 			</div>
+			<Footer />
 		</Suspense>
 	);
 };
