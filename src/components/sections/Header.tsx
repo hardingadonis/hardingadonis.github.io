@@ -55,16 +55,6 @@ const Header = () => {
 							<a href="#education">Education</a>
 						</NavigationMenuLink>
 					</NavigationMenuItem>
-					<NavigationMenuItem>
-						<NavigationMenuLink
-							asChild
-							className={navigationMenuTriggerStyle()}
-						>
-							<a href="https://blog.hardingadonis.top" target="_blank">
-								Blog
-							</a>
-						</NavigationMenuLink>
-					</NavigationMenuItem>
 				</div>
 				<ModeToggle />
 			</NavigationMenuList>
@@ -94,11 +84,6 @@ const Header = () => {
 								</DropdownMenuItem>
 								<DropdownMenuItem>
 									<a href="#education">Education</a>
-								</DropdownMenuItem>
-								<DropdownMenuItem>
-									<a href="https://blog.hardingadonis.top" target="_blank">
-										Blog
-									</a>
 								</DropdownMenuItem>
 							</DropdownMenuGroup>
 						</DropdownMenuContent>
