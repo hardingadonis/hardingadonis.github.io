@@ -53,4 +53,19 @@ export const workExperienceData: WorkExperienceInfo[] = [
 		],
 		teamsize: '9',
 	},
+	{
+		id: 5,
+		companyName: 'FPT Software Quy Nhơn',
+		companyLogoURL:
+			'https://fptsoftware.com/-/media/project/fpt-software/fso/uplift/home/logo_fpt_text_black.png',
+		companyLogoFallback: 'FPT',
+		position: 'Backend Developer',
+		duration: '11/2025 - now',
+		technicalStack: ['C#', 'Java', 'PostgreSQL', 'TIBCO Platform'],
+		workDescription: [
+			'Implementing & debugging Restful API',
+			'Migrate TIBCO business to Java',
+			'Understand SQL queries',
+		],
+	},
 ];
