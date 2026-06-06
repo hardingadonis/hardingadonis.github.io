@@ -23,7 +23,7 @@ const Education = () => {
 							className="border-b last:border-b-0"
 						>
 							<AccordionTrigger className="w-full p-4 bg-zinc-100 dark:bg-zinc-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">
-								<div className="flex-grow flex flex-col justify-center text-left">
+								<div className="grow flex flex-col justify-center text-left">
 									<div className="flex w-full items-center justify-between">
 										<span className="text-sm font-semibold">{edu.college}</span>
 										<span className="text-xs text-gray-500 tabular-nums">
